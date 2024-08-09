@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  justify-content: center;
+  background:linear-gradient(to right,pink,rgb(167, 57, 167) );
+}
+/* 
+.js-body {
+  height: 100vh;
+} */
+.js-text {
+ display: grid;
+  /* margin: 0 auto; */
+}
+
+
+
+  .js-input {
+  display: inline-block;
+  width: 100%;
+  background-color: white;
+  color: #6b7dad;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+  margin: 5px;
+  font-size: small;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  box-sizing: border-box;
+  
+}
+
+.js-button {
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin: 5px;
+}
+
+.js-input-h {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin: 5px;
+  outline: none;
+}
+
+h2 {
+  color: rgb(31, 27, 30);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.edit {
+  color: rgb(78, 35, 44);
+  background-color: rgb(111, 111, 165);
+  padding: 4px;
+  border-radius: 10px;
+  margin-left: 4px;
+
+}
+
+.delete {
+  color: rgb(78, 35, 44);
+  background-color: rgb(111, 111, 165);
+  padding: 4px;
+  border-radius: 10px;
+
+}
+
+.task-text[contenteditable="true"] {
+  outline: none;
+}
+
